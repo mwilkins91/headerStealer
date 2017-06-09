@@ -1,1 +1,1 @@
-{"version":3,"sources":[],"names":[],"mappings":"","file":"style.css","sourceRoot":""}
+{"version":3,"sources":["webpack:///./public/sass/style.scss"],"names":[],"mappings":"AAAA;EACC,qBAAa;EAAb,cAAa;EACb,2BAAsB;MAAtB,uBAAsB;EACtB,qBAA2B;MAA3B,4BAA2B;EAC3B,iBAAgB,EAChB;;AAED;EACC,eAAc,EACd","file":"style.css","sourcesContent":["form.plan {\n\tdisplay: flex;\n\tflex-direction: column;\n\tjustify-content: flex-start;\n\tmax-width: 500px;\n}\n\n.formItem {\n\tmargin: 10px 0;\n}\n\n\n// WEBPACK FOOTER //\n// ./public/sass/style.scss"],"sourceRoot":""}

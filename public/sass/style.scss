@@ -1,3 +1,10 @@
-body {
-	
+form.plan {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	max-width: 500px;
+}
+
+.formItem {
+	margin: 10px 0;
 }

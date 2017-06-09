@@ -1,2 +1,13 @@
+form.plan {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+      flex-direction: column;
+  -ms-flex-pack: start;
+      justify-content: flex-start;
+  max-width: 500px; }
+
+.formItem {
+  margin: 10px 0; }
 
 /*# sourceMappingURL=style.css.map*/

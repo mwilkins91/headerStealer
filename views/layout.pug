@@ -1,14 +1,27 @@
 doctype html
 html
   head
-    title= `${title} | ${h.siteName}`
+    title= `The Web Theif`
     link(rel='stylesheet', href='/dist/style.css')
     link(rel="shortcut icon" type="image/png" href="/images/icons/doughnut.png")
     meta(name="viewport" content="width=device-width, initial-scale=1")
   body
     block main
-      h1 This is an h1
-      p Hello!
+      h1 Hiya! Input a website, and a selector for the html element you want to steal!
+      form.plan(action="/burgle" method="POST")
+        div.formItem
+          label(for="siteAddress") Enter the site address:
+          input#siteAddress(type="text" name="siteAddress")
+
+        div.formItem
+          label(for="selector") Enter the selector for the element you want to steal
+          input#selector(type="text" name="selector")
+
+        div.formItem
+          label(for="replaceAbsolute") Would you like all relative paths replaced with absolute paths?
+          input#replaceAbsolute(type="checkbox" name="replaceAbsolute" )
+        
+        input(type="submit")
     
     block content
 
